@@ -1,0 +1,2 @@
+# constring
+String constants
