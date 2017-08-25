@@ -1,4 +1,5 @@
 # constring
+[![npm version](https://img.shields.io/npm/v/constring.svg)](https://www.npmjs.com/package/constring)
 > Utility string constants
 
 The package aims to solve several issues:
