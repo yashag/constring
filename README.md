@@ -1,5 +1,5 @@
 # constring
-[![npm version](https://img.shields.io/npm/v/constring.svg)](https://www.npmjs.com/package/constring)
+[![NPM](https://nodei.co/npm/constring.png?downloads=true&downloadRank=true)](https://nodei.co/npm/constring/)
 > Utility string constants
 
 The package aims to solve several issues:
