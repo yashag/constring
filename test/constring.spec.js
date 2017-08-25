@@ -4,7 +4,7 @@ const assert = require('assert');
 const EOL = require('os').EOL;
 
 const constring = require('../');
-
+const alphabet = require('../lib/alphabet');
 
 describe('constring', () => {
 
@@ -103,58 +103,9 @@ describe('constring', () => {
     describe('alphabet', () => {
 
         it('include the right abc characters', () => {
-            assert.equal(constring.A, 'A');
-            assert.equal(constring.B, 'B');
-            assert.equal(constring.C, 'C');
-            assert.equal(constring.D, 'D');
-            assert.equal(constring.E, 'E');
-            assert.equal(constring.F, 'F');
-            assert.equal(constring.G, 'G');
-            assert.equal(constring.H, 'H');
-            assert.equal(constring.I, 'I');
-            assert.equal(constring.J, 'J');
-            assert.equal(constring.K, 'K');
-            assert.equal(constring.L, 'L');
-            assert.equal(constring.M, 'M');
-            assert.equal(constring.N, 'N');
-            assert.equal(constring.O, 'O');
-            assert.equal(constring.P, 'P');
-            assert.equal(constring.Q, 'Q');
-            assert.equal(constring.R, 'R');
-            assert.equal(constring.S, 'S');
-            assert.equal(constring.T, 'T');
-            assert.equal(constring.U, 'U');
-            assert.equal(constring.V, 'V');
-            assert.equal(constring.W, 'W');
-            assert.equal(constring.X, 'X');
-            assert.equal(constring.Y, 'Y');
-            assert.equal(constring.Z, 'Z');
-            assert.equal(constring.a, 'a');
-            assert.equal(constring.b, 'b');
-            assert.equal(constring.c, 'c');
-            assert.equal(constring.d, 'd');
-            assert.equal(constring.e, 'e');
-            assert.equal(constring.f, 'f');
-            assert.equal(constring.g, 'g');
-            assert.equal(constring.h, 'h');
-            assert.equal(constring.i, 'i');
-            assert.equal(constring.j, 'j');
-            assert.equal(constring.k, 'k');
-            assert.equal(constring.l, 'l');
-            assert.equal(constring.m, 'm');
-            assert.equal(constring.n, 'n');
-            assert.equal(constring.o, 'o');
-            assert.equal(constring.p, 'p');
-            assert.equal(constring.q, 'q');
-            assert.equal(constring.r, 'r');
-            assert.equal(constring.s, 's');
-            assert.equal(constring.t, 't');
-            assert.equal(constring.u, 'u');
-            assert.equal(constring.v, 'v');
-            assert.equal(constring.w, 'w');
-            assert.equal(constring.x, 'x');
-            assert.equal(constring.y, 'y');
-            assert.equal(constring.z, 'z');
+            for(let letter in alphabet) {
+                assert.equal(constring[letter], letter);
+            }
         });
 
     });
