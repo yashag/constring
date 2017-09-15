@@ -1,6 +1,6 @@
 {
   "name": "constring",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utility string constants",
   "main": "index.js",
   "scripts": {
