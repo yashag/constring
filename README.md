@@ -41,10 +41,9 @@ The `EOL` variable is the end of line field taken from the built in `os` package
 const EOL = require('os').EOL;
 ```
 
-| Key | Value |
-| ----- | ----- |
-| EOL | `EOL` |
-| NEW_LINE | `EOL` |
+| Key | Value | Aliases |
+| ----- | ----- | ----- |
+| NEW_LINE | `EOL` | EOL |
 | TAB | `'\t'` |
 | SPACE | `' '` |
 | BACKSPACE | `'\b'` |
@@ -54,15 +53,13 @@ const EOL = require('os').EOL;
 
 
 ### Special Characters
-| Key | Value | Escaped Value |
-| ----- | ----- | ----- |
-| EMPTY | `'\'` |
-| APOSTROPHE | `'\''` | `'` |
-| SINGLE_QUOTE | `'\''` | `'` |
+| Key | Value | Escaped Value | Aliases |
+| ----- | ----- | ----- | ----- |
+| EMPTY | `''` |
+| APOSTROPHE | `'\''` | `'` | SINGLE_QUOTE |
 | DOUBLE_QUOTE | `'\"'` | `"` |
 | BACK_QUOTE | ``'\`'`` | `` ` `` |
-| SLASH | `'/'` |
-| FORWARD_SLASH | `'/'` |
+| SLASH | `'/'` | | FORWARD_SLASH |
 | BACKSLASH | `'\\'` | `\` |
 | DOT | `'.'` |
 | COMMA | `','` |
@@ -81,25 +78,18 @@ const EOL = require('os').EOL;
 | ASTERISK | `'*'` |
 | OPEN_PARENTHESIS | `'('` |
 | CLOSE_PARENTHESIS | `')'` |
-| MINUS | `'-'` |
-| HYPHEN | `'-'` |
-| DASH | `'-'` |
+| MINUS | `'-'` | | HYPHEN / DASH |
 | UNDERSCORE | `'_'` |
 | PLUS | `'+'` |
-| EQUAL | `'='` |
-| ASSIGNMENT | `'='` |
+| EQUAL | `'='` | | ASSIGNMENT |
 | AND | `'&&'` |
 | OR |`'\|\|'` |
-| OPEN_BRACE | `'{'` |
-| CLOSE_BRACE | `'}'` |
-| OPEN_CURLY_BRACKET | `'{'` |
-| CLOSE_CURLY_BRACKET | `'}'` |
+| OPEN_BRACE | `'{'` | | OPEN_CURLY_BRACKET |
+| CLOSE_BRACE | `'}'` | | CLOSE_CURLY_BRACKET |
 | OPEN_BRACKET | `'['` |
 | CLOSE_BRACKET | `']'` |
-| OPEN_ANGLE_BRACKET | `'<'` |
-| CLOSE_ANGLE_BRACKET | `'>'` |
-| LESS_THAN | `'<'` |
-| GREATER_THAN | `'>'` |
+| OPEN_ANGLE_BRACKET | `'<'` | | LESS_THAN |
+| CLOSE_ANGLE_BRACKET | `'>'` | | GREATER_THAN |
 
 
 ### Numeric
